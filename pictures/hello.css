@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    font-family: arial;
+    border: border-box;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-top:300px;
+    margin-left:500px;
+
+
+}
+.box:hover{
+    background-color: blue;
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    transition-duration:1.5s;
+}
+.box{
+    animation: hover 3s infinite;
+
+}
+@keyframes hover{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color:red;
+    }
+
+}
